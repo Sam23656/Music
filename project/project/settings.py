@@ -38,7 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'category',
-    'jazz'
+    'jazz',
+    'pop',
+    'electronic'
 ]
 
 MIDDLEWARE = [

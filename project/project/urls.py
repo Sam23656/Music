@@ -21,5 +21,7 @@ from category.views import show_index_page
 urlpatterns = [
     path('', show_index_page),
     path('jazz/', include('jazz.urls')),
+    path('pop/', include('pop.urls')),
+    path('electronic/', include('electronic.urls')),
     path('admin/', admin.site.urls),
 ]

@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'category',
     'jazz',
     'pop',
-    'electronic'
+    'electronic',
+    'rock'
 ]
 
 MIDDLEWARE = [

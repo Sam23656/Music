@@ -23,5 +23,6 @@ urlpatterns = [
     path('jazz/', include('jazz.urls')),
     path('pop/', include('pop.urls')),
     path('electronic/', include('electronic.urls')),
+    path('rock/', include('rock.urls')),
     path('admin/', admin.site.urls),
 ]

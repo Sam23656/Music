@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     'jazz',
     'pop',
     'electronic',
-    'rock'
+    'rock',
+    'metal'
 ]
 
 MIDDLEWARE = [

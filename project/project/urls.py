@@ -24,5 +24,6 @@ urlpatterns = [
     path('pop/', include('pop.urls')),
     path('electronic/', include('electronic.urls')),
     path('rock/', include('rock.urls')),
+    path('metal/', include('metal.urls')),
     path('admin/', admin.site.urls),
 ]

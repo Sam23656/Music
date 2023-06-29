@@ -6,8 +6,8 @@ from electronic.models import Electronic
 
 
 def show_electronic_page(request):
-    return render(request, "category.html", context={'electronic_objects': Electronic.objects.all()})
+    return render(request, "category.html", context={'objects': Electronic.objects.all()})
 
 
 def show_electronic_profile_page(request, id):
-    return render(request, "profile.html", context={'electronic_objects': Electronic.objects.get(pk=id)})
+    return render(request, "profile.html", context={'objects': Electronic.objects.get(pk=id)})
